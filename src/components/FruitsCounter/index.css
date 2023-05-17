@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.fruits-counter-container {
+  display: felx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+}
+
+.fruits-counter {
+  display: felx;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+}
+.count-text {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+.count {
+  color: #ffd569;
+}
+.counters-control-container {
+  display: flex;
+  flex-direction: column;
+}
+.fruit-image {
+  width: 200px;
+  height: 175px;
+}
